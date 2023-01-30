@@ -18,8 +18,9 @@ Remove" EIN" and "Name" columns, since will not improve the accuracy.
 
 Data Preprocessing,Four steps tring to achieve the accuracy target 75% / 
 * Drop more noisy variable. original, I only drop "EIN", "NAME" => The accuracy only  53%. I drop two more noisy variable " STATUS" and "ask amount", I am able to increase the accuracy higher to 54%
-![small improvment]
-(https://github.com/violetqq0221/Neural_Network_Charity_Analysis/blob/main/Final%20Result_%20Accuracy%2065%25.PNG)
+
+![small improvment](https://github.com/violetqq0221/Neural_Network_Charity_Analysis/blob/main/result_3_6_8.PNG)
+
 Compiling, Training and Evaluating the Model
 * Add additional neurons to hidden layers. The intial I start 8 neurons on hidden layer 1 and 4 neuron on hidden layer2. The result of accuracy only 65% . I tried few time, different neurons combimation. The finally I add 100 neurons on first hidden layer and 30 neurons on second hidden layer, the accuracy of the result able to achive 70.4% 
 ![before Optimization](https://github.com/violetqq0221/Neural_Network_Charity_Analysis/blob/main/Final%20Result_%20Accuracy%2065%25.PNG)
